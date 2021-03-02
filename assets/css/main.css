@@ -10,6 +10,13 @@ body {
   color: #fff;
 }
 
+.navbar-brand {
+  max-width: 100px;
+}
+.navbar-brand img {
+  max-width: 100%;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
@@ -24,12 +31,24 @@ body {
 }
 
 .youtube-play-video {
-  max-width: 560px;
+  width: 560px;
+  max-width: 100%;
   margin: 0 auto;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+.youtube-play-video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 #footer {
-  background-color: #ccc;
+  background-color: #1968b3;
+  color: #fff;
+  padding: 50px 0;
 }
 
 /*# sourceMappingURL=main.css.map */

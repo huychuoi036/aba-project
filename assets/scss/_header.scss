@@ -11,6 +11,14 @@ body {
     }
 }
 
+.navbar-brand {
+    max-width: 100px;
+
+    img {
+        max-width: 100%;
+    }
+}
+
 .navbar-light {
     .navbar-nav {
         .active {
