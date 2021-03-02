@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: $headerBg;
+    color: #fff;
+
+    a {
+        color: #fff;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .active {
+            > .nav-link {
+
+            }
+        }
+
+        .nav-link {
+            color: #fff;
+
+            &.active,
+            &.show {
+
+            }
+        }
+
+        .show {
+            > .nav-link {
+
+            }
+        }
+    }
+}
