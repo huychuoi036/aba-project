@@ -1,21 +1,30 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
+    color: #060606;
 }
 
 #header {
     background-color: $headerBg;
     color: #fff;
 
-    a {
-        color: #fff;
+    ul {
+        margin: 0 auto;
+
+        a {
+            margin: 0 20px;
+            font-size: 15px;
+            color: #fff;
+        }
     }
 }
 
 .navbar-brand {
     max-width: 100px;
+    margin: 0;
 
     img {
         max-width: 100%;
+        margin-bottom: 0;
     }
 }
 

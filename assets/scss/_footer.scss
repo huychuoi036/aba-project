@@ -2,4 +2,36 @@
     background-color: $footerBg;
     color: #fff;
     padding: 50px 0;
+
+    img {
+        margin-bottom: 0;
+        max-width: 100%;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+    .aside-top {
+        margin-bottom: 55px;
+    }
+    .aside-bottom {
+
+        .icon {
+            margin-bottom: 5px;
+
+            img {
+                margin-right: 10px;
+            }
+        }
+    }
+    p {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .col-md-3 , .col-md-5{
+        margin-top: 40px;
+        .aside-top {
+            margin-bottom: 44px;
+        }
+    }
 }
