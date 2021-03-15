@@ -16,8 +16,20 @@ body {
             color: #fff;
         }
     }
+    .dropdown-menu {
+        background-color: #7ac6e2;
+        a{
+            margin: 0;
+            
+        }
+        a:hover {
+            color: #7ac6e2;
+        }
+    }
 }
-
+li:hover .dropdown-menu {
+    display: block;
+}
 .navbar-brand {
     max-width: 100px;
     margin: 0;
