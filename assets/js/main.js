@@ -111,15 +111,4 @@
 		console.log("window loaded");
 	});
 })(jQuery);
-var i;
-var tong=0;
-for (i=1;i<=100;i++) {
-	tong+=i;
-}
-console.log(tong);
-function tongAB(a, b) {
-	var t=a + b;
-	return t;
-}
- var tong = tongAB(15,26);
- alert(tong);
+
